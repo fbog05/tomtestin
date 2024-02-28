@@ -1,6 +1,22 @@
+import { useState } from 'react';
 import { Pressable, StyleSheet, Text, TextInput, View } from 'react-native';
 
 export default function App() {
+
+  const [weight, setWeight] = useState('')
+  const [height, setHeight] = useState('')
+  const [bmi, setBMI] = useState('')
+
+  function calcBMI(){
+    let res = weight / (height ** 2)
+    setBMI(res)
+  }
+
+  function reset(){
+    setWeight('')
+    setHeight('')
+    setBMI('')
+  }
 
   return (
     <View style={styles.container}>
