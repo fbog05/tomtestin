@@ -1,3 +1,13 @@
+/*
+* File: App.js
+* Author: Ferencsik Boglárka
+* Copyright: 2024, Ferencsik Boglárka
+* Group: Szoft II/2/N
+* Date: 2024-02-28
+* Github: https://github.com/fbog05/
+* Licenc: GNU GPL
+*/
+
 import { useState } from 'react';
 import { Pressable, StyleSheet, Text, TextInput, View } from 'react-native';
 
