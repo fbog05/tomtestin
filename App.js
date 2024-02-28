@@ -24,13 +24,13 @@ export default function App() {
       <Text style={styles.cim}>Testtömegindex</Text>
 
       <View style={styles.body}>
-        <Text style={styles.szoveg}>Tömeg</Text>
+        <Text style={styles.szoveg}>Tömeg (kg)</Text>
         <TextInput
           style={styles.mezo}
           onChangeText={text => setWeight(text)}
           value = {weight}
         />
-        <Text style={styles.szoveg}>Magasság</Text>
+        <Text style={styles.szoveg}>Magasság (m)</Text>
         <TextInput
           style={styles.mezo}
           onChangeText={text => setHeight(text)}
