@@ -57,9 +57,68 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
 
+  cim: {
+    color: '#800040',
+    fontWeight: "800",
+    fontSize: 25,
+    marginTop: 10,
+  },
+
   body: {
     flex: 1,
     alignItems: 'center',
     justifyContent: 'center',
+  },
+
+  szoveg:{
+    color: '#800040',
+    fontWeight: "700",
+    paddingBottom: 10,
+    fontSize: 18,
+  },
+
+  mezo: {
+    backgroundColor: 'white',
+    borderRadius: 10,
+    padding: 8,
+    color: '#800040',
+    fontWeight: "600",
+    marginBottom: 20,
+    borderColor: '#800040',
+    borderWidth: 1,
+    shadowColor: '#171717',
+    shadowOffset: {width: 5, height: 5},
+    shadowOpacity: 0.2,
+    shadowRadius: 3, 
+  },
+
+  button: {
+    backgroundColor: '#800040',
+    paddingVertical: 10,
+    paddingHorizontal: 20,
+    borderRadius: 10,
+    marginBottom: 40,
+    shadowColor: '#171717',
+    shadowOffset: {width: 5, height: 5},
+    shadowOpacity: 0.2,
+    shadowRadius: 3, 
+  },
+
+  buttonText: {
+    color: 'white',
+    fontSize: 14,
+    fontWeight: "700",
+  },
+
+  footer: {
+    backgroundColor: '#800040',
+    width: '100%',
+    opacity: '80%',
+    padding: 5
+  },
+
+  footerText: {
+    color: 'white',
+    textAlign: 'center'
   },
 });
